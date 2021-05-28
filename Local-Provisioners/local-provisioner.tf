@@ -4,6 +4,6 @@ terraform {
 
 resource "null_resource" "resource_for_local_provisioners" {
   provisioner "local-exec" {
-    command = "date"
+    command = "echo 'Terraform Script by Mr. Harshit Dawar! '"
   }
 }
